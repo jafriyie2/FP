@@ -1,0 +1,176 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+
+
+                <!-- User's Full Name -->
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Forename"
+                    />
+
+                <EditText
+                    android:id="@+id/etForename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Please Enter Your Full Name e.g John"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"
+                 />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Surname"
+                    />
+
+                <EditText
+                    android:id="@+id/etSurname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Please Enter Your Full Name e.g Doe"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!-- User's password  -->
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Password"
+                    />
+
+                <EditText
+                    android:id="@+id/rPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!-- User Confirms password  -->
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Password"
+                    />
+
+                <EditText
+                    android:id="@+id/rConPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Confirm Password"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!-- User's Phone Number -->
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Phone Number"
+
+                    />
+
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="e.g 0241234567"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!-- User's Network Provider -->
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Please Select A Security Question"
+
+                />
+
+
+                <Spinner
+                    android:id="@+id/spinQuestion1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                />
+
+                <EditText
+                    android:id="@+id/etSQ1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:layout_marginBottom="10dp"
+                />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Please Select Another Security Question"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/spinQuestion2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    />
+
+                <EditText
+                    android:id="@+id/etSQ2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:layout_marginBottom="10dp"
+                />
+
+
+                <Button
+                    android:id="@+id/bNext"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Next"
+
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:gravity="center" >
+
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dnzlogow"
+        android:layout_marginBottom="20dp"
+     />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/bSignUp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sign Up"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#6BAECF"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/bLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Log In"
+            android:alpha="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#6BAECF"
+            android:textColor="#FFFFFF"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FlexPay</string>
+    <string-array name="arrQuestions">
+        <item>In what city or town did your mother and father meet?</item>
+        <item>In what town was your first job?</item>
+        <item>What is your favorite team?</item>
+        <item>What is the name of your favorite childhood friend?</item>
+        <item>What is your favorite movie?</item>
+        <item>What was your favorite food as a child?</item>
+        <item>What is your mother\'s maiden name?</item>
+        <item>What street did you grow up on?</item>
+        <item>What was the name of your first pet?</item>
+        <item>Which is your favorite web browser?</item>
+    </string-array>
+
+    <string-array name="arrMobMoney">
+        <item>AirTel Money</item>
+        <item>Tigo Cash</item>
+        <item>MTN Mobile Money</item>
+        <item>Vodafone Cash</item>
+    </string-array>
+</resources>
